@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.base{
+    margin: 1em 5em 0 3em;
+    
+}
+
+.sub-base{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: grey;
+    border-radius: .5em;
+    background-color: #fff;
+    border-left: .4em solid #1488CC;
+}
+
+.push{
+    margin-bottom: 2em;
+    border-left: .4em solid #1488CC;
+    background-color: #fff;
+    width: 100%;
+}
+
+.push:nth-child(5),
+.push:nth-child(6){
+    border-left: .4em solid rgb(108, 153, 2);
+}
+
+.bo{
+    margin-top: -4em;
+    padding-bottom: 4em;
+}
+
+.push .content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0;
+}
+
+.push .content div{
+    margin-bottom: 1em;
+    display: flex;
+    align-items: center;                                                                                                       
+}
+
+.push .content div span{
+    color: grey;
+    font-weight: bold;
+}
+
+.push .content div:first-child{
+    margin-top: 3em;
+}
+
+.push .content div img{
+    height: 2em;
+    width: 2em;
+    margin: 0 1.5em 0;
+}
+
+.content{
+    display: flex;
+}
+
+.push .last{
+    margin-left: 2em;
+    padding: .8em;
+    color: #fff;
+    background-color: #1488CC;
+    border-radius: 4px;
+    margin-top: 4em;
+}
+
+.push .last span{
+    font-weight: bold;
+    margin-right: 1em;
+}
+
+.small{
+    height: 3em;
+}
+
+
+
+
+
+.sub-base div:nth-child(1){
+    width: 2%;
+}
+
+.check{
+    height: 1.2em;
+    width: 1.7em;
+    border: 2px solid rgb(204, 204, 204);
+    border-radius: 4px;
+    margin: 0 2em 0;
+}
+
+
+.sub-base div:nth-child(2),
+.sub-base div:nth-child(3),
+.sub-base div:nth-child(4),
+.sub-base div:nth-child(5)
+{
+    width: 20%;
+}
+
+
+
+.sub-base div:nth-child(6){
+    width: 10%;
+}
+
+.sub-base div:nth-child(6) img{
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.sub-base .next{
+    display: block;
+}

@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    user-select: none;
+}
+
+.tail-2 .content span:first-child{
+    padding: 0 .5em .5em;
+}
+
+.tail-2{
+    border-bottom: .5px solid rgb(219, 218, 218);
+}
+
+.info {
+    display: block;
+    margin: 2em 2em .5em;
+    font-size: 1.2em;
+    color: grey;
+    font-weight: bold;
+}
+
+.contain{
+    display: flex;
+    margin: 0 0 2em 2em;
+    /* background-color: #3a81df; */
+}
+
+.contain div{
+    width: 33.3%;
+    height: 270px;
+    /* background-color: #fff; */
+    margin: 0 3em 0 0;
+    border-radius: 8px;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(165, 165, 165);
+}
+
+.center img{
+    height: 4em;
+    width: 4em;
+    border-radius: 50%;
+}
+
+.contain div:first-child{
+    display: flex;
+    border: 3px dashed rgb(185, 185, 185);
+    font-weight: bold;
+}
+
+.contain div:first-child img{
+    height: 2em;
+}
+
+.contain div:nth-child(2),
+.contain div:last-child{
+    display: flex;
+    background-color: #fff;
+}
+
+.person{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #000;
+    margin-top: 1em;
+}
+
+/* .relation{
+
+} */
+
+/* .contain .center .dash{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* justify-content: center;
+    align-content: center; 
+    text-decoration: none;
+}
+
+/* .contain .center .dash{
+    margin: 1em 2em 1em;
+} 
+
+.contain .center .dash span{
+    background: #ddd;
+    height: 3em;
+    width: 3em;
+    border-radius: 50%;
+} */
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    /* background-color: #fff; */
+    margin: 0 3em 0 2em;
+    color: rgb(128, 128, 128);
+}
+
+.flex div{
+    width: calc(100% / 2);
+    background-color: #ddd;
+    height: 3em;
+    padding: 1.5em;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.flex div:last-child{
+    margin-left: 2em;
+}
+
