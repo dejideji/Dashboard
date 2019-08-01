@@ -127,9 +127,18 @@ body{
     height: 1em;
     margin: .5em .8em .5em;
     border-radius: 50%;
-    background: linear-gradient(to top, rgb(196, 83, 190), #a11fa1);
+    /* background: linear-gradient(to top, rgb(196, 83, 190), #a11fa1); */
+    background: linear-gradient(to top, rgb(255, 157, 250), #d400ff);
     background-color: rgb(243, 243, 243);
 }
+
+.box2 .structure .left2{
+background: linear-gradient(to bottom, rgb(238, 57, 87), rgb(255, 105, 130));
+}
+
+.box2 .structure .left3{
+    background: linear-gradient(to bottom, rgb(243, 227, 6), rgb(228, 177, 10));
+    }
 
 .box2 .structure .left-img{
     margin: 0;
@@ -309,18 +318,21 @@ body{
     border-right: none;
 }
 
+.rhyme{
+    color: rgb(146, 146, 146);
+}
 
 
 
 /* FIX FADE AND BOLD */
-/* .calendar .bold{
+.calendar .bold{
     font-weight: bold;
 }
 
 .fade{
-    color: #eee;
+    color: #ccc;
     font-weight: normal;
-} */
+}
 
 /* .calendar .row1 .diff{
     display: flex;
